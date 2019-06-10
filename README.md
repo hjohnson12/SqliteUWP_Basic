@@ -3,6 +3,18 @@
 This is an example of using a sqlite database in a universal windows platform application. Simple Create, Read, Update, and Delete (CRUD)
 operations are used within this project to show working with data in a database.
 
+Items are read from database at runtime and stored into listview:
+
+![Image of Program1](SqliteUWP_Basic/Images/AppEx1.png)
+
+Content dialog popup for updating task:
+
+![Image of Program2](SqliteUWP_Basic/Images/AppEx2.png)
+
+Multiple selection is enabled so you're able to delete multiple items at once:
+
+![Image of Program3](SqliteUWP_Basic/Images/AppEx3.png)
+
 ## Getting Started
 
 ### Prerequisites
