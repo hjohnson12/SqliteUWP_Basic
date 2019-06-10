@@ -29,8 +29,11 @@
         </StackPanel>
 
         <Border Grid.Row="1" BorderBrush="Black" BorderThickness="2 2 2 2">
-            <ListView Name="listViewItems" SelectionMode="Multiple" Background="White" Foreground="Black"
+            <ListView Name="listViewItems" SelectionMode="Multiple" Foreground="Black"
                       KeyDown="listViewItems_KeyDown">
+                <ListView.Background>
+                    <AcrylicBrush TintColor="AliceBlue" BackgroundSource="HostBackdrop" TintOpacity="0.3" FallbackColor="AliceBlue"/>
+                </ListView.Background>
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <TextBlock Text="{Binding}"/>
