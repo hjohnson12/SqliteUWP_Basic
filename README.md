@@ -13,7 +13,7 @@ Content dialog popup for updating task:
 
 Multiple selection is enabled so you're able to delete multiple items at once:
 
-![Image of Program3](SqliteUWP_UWP/Images/AppEx3.png)
+![Image of Program3](Sqlite_UWP/Images/AppEx3.png)
 
 ## Getting Started
 
