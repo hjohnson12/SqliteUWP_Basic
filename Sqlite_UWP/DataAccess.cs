@@ -102,7 +102,6 @@ namespace Sqlite_UWP
             return entries;
         }
 
-
         public static void UpdateItem(int id, string text)
         {
             using (SqliteConnection db =
